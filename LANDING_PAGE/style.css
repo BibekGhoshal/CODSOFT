@@ -1,0 +1,431 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+  }
+  
+  header {
+    background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    line-height: 15px;
+  }
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    margin-left: 150px;
+  }
+  
+  .icon i {
+    width: 30px;
+    height: 30px;
+    color: white;
+    /* margin: 0 5px; */
+    margin-top:8px;
+    /* margin-left: 30px; */
+    /* align-items: center; */
+  }
+  
+  .contact {
+    display: flex;
+    align-items: center;
+  }
+  
+  .fa-phone {
+    rotate: 90deg;
+    /* margin-bottom: 25px; */
+    margin-top:-46px;
+    margin-right: -27px;
+    /* padding-left: 45px; */
+  }
+  
+  .contact span {
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+    /* padding-left: 20px; */
+  }
+  
+  .contact i {
+    width: 20px;
+    height: 20px;
+    color: white;
+    padding-left: 50px;
+    /* margin-right: 5px; */
+  }
+  
+  header button {
+    width: 218px;
+    height: 35px;
+    border-radius: 20px;
+    margin-right: 110px;
+    z-index: 0.5;
+    background-color: transparent; /* Set the background color to transparent */
+    border: 2px solid white; /* Add a border */
+    color: white; /* Set the text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease-in-out;
+    font-weight:bold;
+    letter-spacing: 1.5px; /* Add smooth transition */
+  }
+
+/* section 1 styling */
+
+.feature-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:white;
+    padding: 10px;
+    line-height: 20px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    /* justify-content: space-between; */
+  }
+  
+  .feature-item img {
+    width: 50px;
+    /* height: 100px; */
+    margin-left: 20px;
+  }
+  
+  .feature-item h2{
+    margin-left:13px ;
+    color: black;
+    margin-top:10px;
+  }
+  .feature-navigation {
+    display: flex;
+    align-items: center;
+  }
+  
+  .feature-navigation a {
+    text-decoration: none;
+    color: #333;
+    margin-right: 52px;
+    font-weight: bold;
+    /* padding-left: 5px; */
+  }
+  
+  .feature-navigation a:hover {
+    color: #555;
+  }
+  
+  .feature-navigation i {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section {
+    padding: 20px;
+    margin: 20px 0;
+  }
+  
+
+  /* sction 2 styling */
+  
+  .watermark-section {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px;
+    color: white;
+    background-image: url('images/background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .watermark-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Color overlay on the background image */
+  }
+  
+  .content {
+    max-width: 70%;
+    margin-left:-195px;
+  }
+
+ .watermark-section .vertical-line {
+    width: 4px;
+    height: 250px;
+    background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%);
+    margin-left:40px;
+    margin-top: 48px;
+    opacity: 0.9;
+  }
+
+  .content button{
+    border-radius: 20px;
+    background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%);
+    border: none;
+    opacity: 0.9;
+    margin-left: 15px;
+    font-weight:bold;
+    letter-spacing: 2px;
+  }
+  
+ .content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    /* background-color: white; */
+    padding: 10px 20px; /* Add padding to the highlighted text */
+    border-radius: 5px;
+    color:white;
+     opacity: 0.9;
+  }
+  
+ .content p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color:white;
+    opacity: 0.9;
+    margin-left: 17px;
+  }
+  
+  button {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .arrow-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    opacity: 0.9;
+  }
+  
+  .circle i {
+    color: white;
+    font-size: 24px;
+  }
+
+  .right-icon{
+    background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%);
+  }
+  
+  /* section 3 styling */
+
+  .features {
+    background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%);
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    line-height: 20px;
+  }
+  
+  .feature {
+    flex: 1;
+    /* text-align: center; */
+    /* margin-left: 15px; */
+  }
+  
+ .feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left:20px;
+    color: white;
+  }
+  
+ .feature p {
+    font-size: 18px;
+    margin-left: 20px;
+  }
+
+  /* section 4 styling */
+
+  .blurry-section {
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    background-image: url('images/dotted.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .blurry-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px);
+    z-index: -1;
+  }
+  
+  .content1 {
+    flex: 1;
+    padding-right: 30px;
+    color: white;
+  }
+  
+  .content1 button {
+    border-radius: 20px;
+    background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%);
+    border: none;
+    /* margin-left: 2px; */
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color:black;
+    /* opacity: 0.9; */
+   }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    border: 2px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image {
+    flex: 1;
+    /* text-align: right; */
+    /* margin-right: 20px; */
+   } 
+  
+   .image img {
+    max-width: 35%;
+    height: auto;
+    margin-left: 60px;
+    position:relative;
+    z-index:2 ;
+  }
+
+   .box {
+    width: 320px;
+    height: 70px;
+    position: relative;
+    bottom: 0;
+    margin-top: -82px;
+    z-index: 1;
+    border: 8px solid;
+    border-image: radial-gradient(circle at 10% 20%, rgb(253, 203, 50), rgb(255, 20, 147));
+    border-image-slice: 1;
+  }
+
+  .line {
+    width: 12%;
+    height: 5px;
+    background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%);;
+    border: none;
+  }
+  
+   
+
+  /*  */
+  .service-section {
+    /* text-align: center; */
+    padding: 50px;
+    background-image: url('images/dotted.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .service-section h2 {
+    font-size: 36px;
+    margin-bottom: 35px;
+    color: black;
+    margin-left: 37PX;
+  }
+  
+  .service-boxes {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box1 {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    margin: 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    /* background-color:aquamarine; */
+    background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%);
+  }
+  
+  .box1 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .box-btn {
+    border-radius: 20px;
+     background-color: black;
+    /* background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%); */
+    border: none;
+    /* margin-left: 2px; */
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .line1 {
+    width: 5.5%;
+    height: 5px;
+    background: radial-gradient(circle at 10% 20%, rgb(253, 203, 50) 0%, rgb(255, 20, 147) 100.2%);;
+    border: none;
+    margin-left:37px;
+    margin-top:-25px;
+    position: absolute;
+  }
